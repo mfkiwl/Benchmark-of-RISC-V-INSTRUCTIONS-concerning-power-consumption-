@@ -26,7 +26,7 @@ SECTIONS
 {
 
   /* text: test code section */
-  . = 0x80000000;
+  . = 0x80000000; /* here I have defined the base memory address of my assembly code .*/
   .text :
   {
     *(.text)
