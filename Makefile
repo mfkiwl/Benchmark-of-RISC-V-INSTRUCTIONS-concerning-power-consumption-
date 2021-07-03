@@ -17,7 +17,7 @@ TEST_PREFIX	= rv64-
 endif
 
 TOPDIR		?= .
-SUBDIRS          = vicky \
+SUBDIRS          = vicky \ # Here we have to use the name of diractory where my assembly code exists.
 
 # cross compile programs
 AR     		= $(CROSS_COMPILE)ar
