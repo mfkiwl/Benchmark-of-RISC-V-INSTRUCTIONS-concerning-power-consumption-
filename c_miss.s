@@ -1,4 +1,6 @@
 /* Benchmark assembly code for 100% Cache MISS */
+/*ASSUMPTION IS THAT THE SIZE OF CACHE IS 64 WORDS , AND EACH WORD IS OF 4 BYTE (32 BIT ) LENGTH . */
+
 #include "macros.h"	
 	.text
 	.globl	_start
