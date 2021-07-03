@@ -1,3 +1,4 @@
+/* Benchmark assembly code for 100% Cache MISS */
 #include "macros.h"	
 	.text
 	.globl	_start
