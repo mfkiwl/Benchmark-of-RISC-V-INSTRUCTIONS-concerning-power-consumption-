@@ -1,3 +1,4 @@
+/* the benchmark assembly code for 100% Cache HIT */
 #include "macros.h"	
 	.text
 	.globl	_start
