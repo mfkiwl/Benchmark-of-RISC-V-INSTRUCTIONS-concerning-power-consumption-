@@ -1,6 +1,6 @@
 The ISA power benchmarks process will get implemented in several stages.
 1st stage is the Generation of the RISC-V assembly code template.
-2nd stage is compiling and simulating this assembly code on the bluespec RISC-V explorer tool to get (idea/best logic) about the correctness of the assembly code template aiming ISA power. 
+2nd stage is compiling and simulating this assembly code on the bluespec RISC-V explorer tool to get (idea/best logic) about the correctness of the assembly code template aiming ISA power benchmark. 
 #So assembly code template got generated successfully.
 #The big question How to do compilation and simulation on the mentioned tool, now this thing I will discuss in several steps.
 step 1 -: Download and install bluespec RISC-V explorer tool on your device.
